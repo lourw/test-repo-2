@@ -1,0 +1,10 @@
+assignment-rules:
+  - targets:
+    - build
+    run-on:
+      - agent: test-1
+
+  - targets:
+    - lint
+    run-on:
+      - agent: test-2
